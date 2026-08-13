@@ -1,4 +1,4 @@
-# Task 2 - Laundry Wallah / Laundry Mart
+Laundry Wallah / Laundry Mart
 
 This project is an HTML webpage for Laundry Wallah / Laundry Mart.
 
