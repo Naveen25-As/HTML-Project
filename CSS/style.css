@@ -1,0 +1,42 @@
+/* Step 3: Body background color */
+body {
+    background-color: lightgray;
+}
+
+/* Step 5: Dark blue color for all elements having class="head" */
+.head {
+    color: darkblue;
+}
+
+/* Step 6: Background color of element with id="bgline" */
+#bgline {
+    background-color: lightblue;
+}
+
+/* Step 7: Make the 2nd heading red */
+h3.head {
+    color: red;
+}
+
+/* Step 8: All paragraphs should have white text */
+p {
+    color: white;
+}
+
+/* Step 9: Second paragraph should be green */
+#para {
+    color: green;
+}
+
+/* Step 10: Paragraph text in second paragraph black + bigger font */
+#para {
+    color: black;
+    font-size: 22px;
+}
+
+/* Step 11: Style "Here" without using id/class/inline CSS */
+/* First <li> inside both lists */
+li:first-child {
+    font-weight: bold;
+    text-decoration: underline;
+}
