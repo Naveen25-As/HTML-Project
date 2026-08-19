@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f9ff;
+    color: #1d3557;
+}
+
+.navbar {
+    height: 12vh;
+    width: 100%;
+    background-color: white;
+    padding: 0 5vw;
+    border-bottom: 1px solid #e5e5e5;
+    line-height: 12vh;
+}
+
+/* Logo */
+.logo {
+    display: inline-block;
+    width: 20%;
+    font-size: 2vw;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.logo span {
+    color: #2196f3;
+}
+
+/* Navigation */
+.nav-links {
+    display: inline-block;
+    width: 55%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1vw;
+    font-weight: 500;
+    margin: 0 1.2vw;
+}
+
+.nav-links a:hover {
+    color: #2196f3;
+}
+
+/* Username */
+.username {
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+    font-size: 1vw;
+    font-weight: bold;
+    color: #2196f3;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+
+/* =========================
+   HERO SECTION
+   ========================= */
+
+.hero {
+    height: 88vh;
+    width: 100%;
+    padding: 8vh 7vw;
+    overflow: hidden;
+}
+
+/* Left side */
+.hero-left {
+    display: inline-block;
+    width: 48%;
+    vertical-align: middle;
+    padding: 4vh 2vw;
+}
+
+.small-title {
+    color: #2196f3;
+    font-size: 1vw;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 2vh;
+}
+
+.hero-left h1 {
+    font-size: 5vw;
+    line-height: 1.05;
+    color: #172b4d;
+    margin-bottom: 3vh;
+}
+
+.hero-left h1 span {
+    color: #2196f3;
+}
+
+.description {
+    width: 90%;
+    font-size: 1.2vw;
+    line-height: 1.7;
+    color: #5f6c7b;
+    margin-bottom: 4vh;
+}
+
+
+/* Button */
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #2196f3;
+    color: white;
+    padding: 1.8vh 2.5vw;
+    border-radius: 8px;
+    font-size: 1.1vw;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #1769aa;
+}
+
+
+/* Right side */
+.hero-right {
+    display: inline-block;
+    width: 48%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.hero-right img {
+    width: 90%;
+    height: 62vh;
+    object-fit: cover;
+    border-radius: 25px;
+}
