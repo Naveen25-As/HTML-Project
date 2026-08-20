@@ -1,126 +1,84 @@
-/* Apply box sizing to all elements */
-
 * {
     box-sizing: border-box;
 }
 
-
-/* Body */
-
 body {
     margin: 0;
-    padding: 0;
-
-    height: 100vh;
-
     font-family: Arial, sans-serif;
-
-    background-color: #f2f2f2;
+    background-color: #f5f9ff;
 }
 
-
-/* Main container */
-
-.container {
-    width: 50vw;
-    height: 80vh;
-
-    margin-left: 25vw;
-    margin-right: 25vw;
-
-    margin-top: 10vh;
-    margin-bottom: 10vh;
-
-    padding: 3vh 3vw;
-
+/* Navbar */
+.navbar {
+    padding: 20px 8%;
     background-color: white;
+}
 
-    border: 2px solid #ddd;
-    border-radius: 20px;
+.logo {
+    display: inline-block;
+    width: 25%;
+    font-size: 24px;
+    font-weight: bold;
+}
 
+.nav-links {
+    display: inline-block;
+    width: 50%;
     text-align: center;
 }
 
-
-/* Image section */
-
-.image-box {
-    width: 100%;
-    height: 45vh;
-
-    padding: 1vh;
-
-    margin-bottom: 2vh;
+.nav-links a {
+    margin: 0 12px;
+    text-decoration: none;
+    color: #333;
 }
 
-
-/* Image */
-
-.image-box img {
-    width: 100%;
-    height: 100%;
-
-    object-fit: cover;
-
-    border-radius: 15px;
+.user-name {
+    display: inline-block;
+    width: 24%;
+    text-align: right;
 }
 
-
-/* Heading */
-
-h1 {
-    font-size: 3vw;
-
-    margin-top: 1vh;
-    margin-bottom: 2vh;
-
-    color: #222;
+/* Hero */
+.hero {
+    padding: 80px 8%;
 }
 
-
-/* Paragraph */
-
-p {
-    font-size: 1.2vw;
-
-    line-height: 1.5;
-
-    margin-top: 0;
-    margin-bottom: 3vh;
-
-    color: #555;
+.hero-left {
+    display: inline-block;
+    width: 48%;
+    vertical-align: middle;
 }
 
+.hero-right {
+    display: inline-block;
+    width: 48%;
+    vertical-align: middle;
+    text-align: center;
+}
 
-/* Button */
+.hero-left h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.hero-left p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
 
 button {
-    padding: 1.5vh 3vw;
-
+    padding: 14px 25px;
     border: none;
-    border-radius: 10px;
-
-    background: linear-gradient(
-        90deg,
-        #667eea,
-        #764ba2
-    );
-
+    background: linear-gradient(to right, #2196f3, #00bcd4);
     color: white;
-
-    font-size: 1.2vw;
-    font-weight: bold;
-
+    font-size: 16px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
-
-/* Button hover */
-
-button:hover {
-    background: linear-gradient(
-        90deg,
-        #764ba2,
-        #667eea
-    );
+.hero-right img {
+    width: 90%;
+    border-radius: 10px;
 }
